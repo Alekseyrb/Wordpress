@@ -297,7 +297,7 @@ h2.title {
 }
 
 .first_webinar {
-    min-height: 513px;
+    min-height: 432px;
 }
 
 .first_webinar .first_webinar_img {
@@ -331,4 +331,28 @@ h2.title {
     font-weight: 400;
     font-family: Roboto;
     color: #4A4A4A;
+}
+
+.end {
+    min-height: 167px;
+    background-color: #1A1A1A; 
+    text-align: center;
+}
+
+.end .help {
+    display: inline-block;
+    padding-top: 57px;
+    text-decoration: underline;
+    color: #888888;
+}
+
+.end .konf {
+    display: inline-block;
+    text-decoration: underline;
+    color: #888888;
+}
+
+.end .telephone {
+    color: #888888;
+    text-decoration: none;
 }
