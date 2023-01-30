@@ -78,7 +78,8 @@ h2.title {
     text-transform: uppercase;
 }
 
-.promo .promo_btn, .present .present_btn {
+.promo .promo_btn,
+.present .present_btn {
     display: block;
     /* margin: 73px auto; */
     margin: 0 auto;
@@ -129,7 +130,8 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     font-family: Robot;
     font-size: 30px;
@@ -142,7 +144,8 @@ h2.title {
     color: #fff;
 }
 
-.waiting .waiting_divider, .finish .finish_divider {
+.waiting .waiting_divider,
+.finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #F9BF3B;
@@ -333,26 +336,39 @@ h2.title {
     color: #4A4A4A;
 }
 
-.end {
-    min-height: 167px;
-    background-color: #1A1A1A; 
-    text-align: center;
-}
 
-.end .help {
-    display: inline-block;
-    padding-top: 57px;
-    text-decoration: underline;
-    color: #888888;
-}
-
-.end .konf {
-    display: inline-block;
-    text-decoration: underline;
-    color: #888888;
-}
-
-.end .telephone {
+.telephone {
     color: #888888;
     text-decoration: none;
+}
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.info {
+    display: block;
+    margin: 0 auto;
+    width: 377px;
+    text-align: center;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
 }
